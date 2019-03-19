@@ -1,0 +1,1 @@
+Get-ADUser -Filter * -SearchBase "DC=autonomics, DC=local" | Select sAMAccountName, SID
