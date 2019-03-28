@@ -1,0 +1,1 @@
+Get-Process | Sort-Object CPU -descending | Select-Object -first 5  | Format-Table ProcessName,CPU | out-file -filepath C:\Apoorva\top5cpu.txt -append
